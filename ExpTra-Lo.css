@@ -122,25 +122,18 @@ body {
 
 
 /* Style for the verticle bar*/
-.vertical {
-    color: rgb(35, 35, 106);
-    margin: 0 auto;
-    border-width: 2px;
-  
-  
-}
+
 
 /* Style for table*/
 #table {
     width: 100%;
-    border-radius: 20px;
     border-collapse: collapse;
     text-align: center;
     justify-content: center;
     align-items: center;
     border: 1px solid darkblue;
     font-size: 18px;
-    background-color: transparent;
+   
   
 }
 
