@@ -21,7 +21,6 @@
         <div>
             <h1 class="balance">&#10004; Balance:
                 <span id="updatedBal">
-                      7000
                   </span>
             </h1>
         </div>
@@ -30,9 +29,8 @@
             <div>
                 Total Income:
                 <div>
-                    <h2 style="color: rgb(30, 182, 30);"
+                    <h2 style="color: green;"
                         id="updatedInc">
-                        25000
                     </h2>
                 </div>
             </div>
@@ -40,9 +38,8 @@
             <div>
                 Total Expenses:
                 <div>
-                    <h2 style="color: rgb(202, 25, 25);" 
+                    <h2 style="color: red;" 
                         id="updatedExp">
-                        18000
                     </h2>
                 </div>
             </div>
@@ -80,15 +77,13 @@
                     <input id="name" 
                            type="text"
                            value="" 
-                           placeholder="name" />
+                           placeholder="Item" />
                 </div>
                 <div class="inputitem">
                     <p style="width: 9rem">Amount:</p>
-                    <input value="0" 
-                           id="amount"
-                           name="mod" 
-                           type="number" 
-                           placeholder="amount" />
+                    <input id="amount"
+                           name="mod"
+                           placeholder="$0"/>
                 </div>
             </div>
             <button onclick="addItem()">
