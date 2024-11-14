@@ -185,8 +185,10 @@ body {
     flex-direction: row;
     font-weight: bolder;
     font-size: large;
-    padding: 1%;
-   
+    padding: 1%; 
+}
+#amount{
+    margin-bottom: 10px;
 }
 
 input,
