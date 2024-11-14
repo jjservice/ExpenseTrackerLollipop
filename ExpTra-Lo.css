@@ -164,6 +164,28 @@ body.light .toggleClass ion-icon{
    
 }
 
+@media (min-width: 768px){
+    .root {
+        display: flex;
+        background-color: rgba(255, 255, 255, 0.418);
+        color: #161718;
+        text-shadow: 1px 1px 2px darkgray;
+        width: 700px;
+        margin-bottom: 5px;
+        padding: 10px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        border: 6px solid rgba(184, 11, 54, 0.432);
+        box-shadow: 0px 2px 20px lightpink;
+        border-radius: 20px;
+       
+    }
+    .title-h1{
+        width: 500px;
+    }
+}
+
 
 /* Style for the verticle bar*/
 
