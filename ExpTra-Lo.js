@@ -1,4 +1,10 @@
-// script.js
+/// Lights-Function ///
+function toggleClass(){
+
+    const body = document.querySelector('body');
+    body.classList.toggle('light');
+    
+    }
 
 // Initial Data
 let tableEntries = [
