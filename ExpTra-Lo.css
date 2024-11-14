@@ -115,11 +115,11 @@ body {
 
 /* Style for the expense table and input form*/
 .root {
+    margin: 0 auto;
     display: inline-block;
     background-color: rgba(255, 255, 255, 0.418);
     color: #161718;
     text-shadow: 1px 1px 2px darkgray;
-    margin: 0 auto;
     width: 380px;
     margin-bottom: 5px;
     padding: 10px;
