@@ -71,13 +71,13 @@ body {
 
 /* Style to expense summary */
 .summary {
-    width: 25rem;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
     align-items: center;
     margin: 0 auto;
-    padding: 1%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
 }
 
 .total {
@@ -85,9 +85,9 @@ body {
     text-shadow: 2px 1px 2px darkblue;
     font-weight: bold;
     font-size: 20px;
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
     margin: 0 auto;
+    margin-bottom: 5px;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -115,12 +115,12 @@ body {
 
 /* Style for the expense table and input form*/
 .root {
-    display: inline;
+    display: inline-block;
     background-color: rgba(255, 255, 255, 0.418);
     color: #161718;
     text-shadow: 1px 1px 2px darkgray;
     margin: 0 auto;
-    width: 375px;
+    width: 380px;
     margin-bottom: 5px;
     padding: 10px;
     justify-content: center;

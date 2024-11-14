@@ -2,7 +2,7 @@
 
 // Initial Data
 let tableEntries = [
-    { type: 1, name: "Ex:1", amount: 100 },
+    { type: 1, name: "Ex:1", amount: 1200},
     { type: 0, name: "Ex:2", amount: 100},
     { type: 0, name: "Ex:3", amount: 100 },
 ];
