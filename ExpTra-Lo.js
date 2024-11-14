@@ -31,7 +31,7 @@ function addItem() {
 
     // Input validation
     if (name.value === "" || Number(amount.value) === 0)
-        return alert("Incorrect Input");
+        return alert("Incorrect Entry");
     if (Number(amount.value) <= 0)
         return alert(
             "Incorrect amount! can't add negative"
