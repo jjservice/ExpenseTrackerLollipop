@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ExpTra-Lo.css">
+    <title>Document</title>
+</head>
+<body>
+    <table id="table">
+        <tr>
+          <th>#</th>
+          <th>Name</th>
+          <th>Amount</th>
+          <th>Type</th>
+          <th>Action</th>
+        </tr>
+      </table>
+      
+      <form>
+        <input type="text" id="name" placeholder="Name">
+        <input type="number" id="amount" placeholder="Amount">
+        <select id="itemType">
+          <option value="1">Income</option>
+          <option value="0">Expense</option>
+        </select>
+        <button type="button" onclick="addItem()">Add Item</button>
+      </form>
+      
+      <div id="summary">
+        <p>Total Income: <span id="updatedInc">0</span></p>
+        <p>Total Expense: <span id="updatedExp">0</span></p>
+        <p>Balance: <span id="updatedBal">0</span></p>
+      </div>
+      
+</body>
+<script src="Exp222.js"></script>
+</html>
