@@ -184,6 +184,10 @@ body.light .toggleClass ion-icon{
     .title-h1{
         width: 500px;
     }
+    button{
+        position: relative;
+        left: 65px;
+    }
 }
 
 
