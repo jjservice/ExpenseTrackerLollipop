@@ -93,12 +93,19 @@
 
     </div>
      
+    <footer>
+        <div class="homebtn"><a href="javascript:history.back()"><ion-icon name="home"></ion-icon></a></div>
+        <p>&copy;<span id="currentYear"></span>JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></p>
+      </footer>
     
-
-    <div class="homebtn"><a href="https://jjservice.github.io/L2/1.html">
-        <ion-icon name="home"></ion-icon></a></div>
-      </div>
-    <h3>&copysr;JJPoweredIT<ion-icon name="bonfire-sharp"></ion-icon></h3>
+      <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
+        
+        // Find the element with id "currentYear" and set its content to the current year
+        document.getElementById("currentYear").textContent = currentYear;
+      </script>
+    
     <script src="Exp222.js"></script> 
 </body>
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
